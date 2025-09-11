@@ -205,3 +205,21 @@ if user_input:
 if st.button("🗑️ Clear Chat", use_container_width=True):
     st.session_state.messages = []
     st.rerun()
+
+# Instructions
+with st.expander("ℹ️ How to use"):
+    st.markdown("""
+    **Getting Started:**
+    1. **Upload a TXT file** in the sidebar  
+    2. **Select response mode**: Concise or Detailed  
+    3. **Toggle theme** between Light and Dark  
+    4. **Ask questions** about your document  
+    
+    **Response Modes:**  
+    - 📋 **Concise**: Brief, direct answers  
+    - 📊 **Detailed**: Comprehensive explanations  
+    
+    **Theme Options:**  
+    - Click the theme button to switch between light and dark modes  
+    - All text has optimal contrast for readability  
+    """)
