@@ -98,7 +98,7 @@ NeoStats-AI-Chatbot/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/your-username/neostats-ai-chatbot.git
+git clone https://github.com/Himanshuyadavv/NEO_PROJECT.git
 cd neostats-ai-chatbot
 ```
 
